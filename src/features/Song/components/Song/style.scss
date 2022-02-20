@@ -1,0 +1,12 @@
+.song{
+    &_thumbnail{
+        & > img {
+            width: 190px;
+            border-radius: 0.5rem;
+        }
+    }
+
+    &_name{
+        font-weight: bold;
+    }
+}
